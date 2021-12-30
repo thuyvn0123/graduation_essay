@@ -1,0 +1,113 @@
+.get-quote {
+  background-color: #E5E5E5;
+  width: 100%;
+  text-align: center;
+  padding: 4rem;
+}
+.get-quote p {
+  padding: 0 28rem;
+  margin-bottom: 1rem;
+}
+.get-quote button {
+  width: 12%;
+}
+
+.footer-main {
+  background-color: white;
+  padding: 3rem 15rem;
+}
+.footer-main .footer-col-1 {
+  padding: 0 2rem;
+}
+.footer-main .footer-col-1 .foot-brand img {
+  width: 7rem;
+}
+.footer-main .footer-col-1 p {
+  font-size: 0.8rem;
+  margin: 0.4rem 0;
+}
+.footer-main .footer-col-1 hr {
+  color: white;
+}
+.footer-main .footer-col-1 .foot-contact {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+.footer-main .footer-col-1 .foot-contact i {
+  margin-right: 1rem;
+}
+.footer-main .footer-col-1 .foot-contact p {
+  font-size: 1rem;
+  margin: 0;
+}
+.footer-main .footer-col-2 {
+  padding: 0 2rem;
+}
+.footer-main .footer-col-2 form > input {
+  background-color: #333F48;
+  color: #A2AAAD;
+}
+.footer-main .footer-col-2 button {
+  margin: 1rem 0;
+  width: 100%;
+}
+.footer-main .footer-col-2 .foot-social p {
+  font-weight: bold;
+  margin: 0;
+}
+.footer-main .footer-col-2 .foot-social i {
+  margin: 0 0.8rem;
+}
+.footer-main .footer-col-3 {
+  padding: 0 1rem;
+}
+.footer-main .footer-col-3 p {
+  font-size: 0.8rem;
+  margin-bottom: 0.4rem;
+  padding-left: 1rem;
+}
+.footer-main .footer-col-3 .foot-img {
+  width: 40%;
+  margin: 0.2rem 1rem;
+}
+
+.copy-right {
+  background-color: #2B2F31;
+}
+.copy-right p {
+  padding: 0.5rem 0;
+  margin: 0;
+  color: white;
+}
+
+@media (max-width: 680px) {
+  .get-quote p {
+    padding: 0 1rem;
+  }
+  .get-quote button {
+    width: 40%;
+  }
+
+  .footer-main {
+    padding: 2rem;
+  }
+  .footer-main .footer-col-1 {
+    margin: 1.5rem 0;
+  }
+  .footer-main .footer-col-2 {
+    margin: 1.5rem 0;
+  }
+  .footer-main .footer-col-3 {
+    margin: 1.5rem 0;
+  }
+}
+@media (max-width: 860px) and (min-width: 680px) {
+  .footer-main {
+    padding: 3rem 6rem;
+  }
+}
+@media (max-width: 1300px) and (min-width: 860px) {
+  .footer-main {
+    padding: 3rem 10rem;
+  }
+}

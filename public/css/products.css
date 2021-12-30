@@ -1,0 +1,115 @@
+.products-control {
+  width: 70%;
+  margin-left: 15%;
+}
+.products-bar {
+  background: #f2f2f2;
+  color: #2B2F31;
+  text-align: center;
+  align-self: center;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.products h3 {
+  padding-bottom: 3rem;
+}
+.products-content {
+  margin-top: 1rem;
+}
+
+.slide-product {
+  width: 60rem;
+  margin: auto;
+}
+
+.c-product {
+  padding: 0;
+  list-style: none;
+  top: 0;
+}
+.c-product img {
+  width: 6rem !important;
+}
+
+.c-inner-product {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.recomment {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: rgba(140, 106, 81, 0.1);
+  text-align: center;
+}
+.recomment .row {
+  width: 80%;
+  margin: auto;
+}
+
+.products-active {
+  background: #2B2F31 !important;
+  color: #f2f2f2;
+}
+
+.products-active:hover {
+  color: white;
+}
+
+#projects {
+  width: 70%;
+  margin: 0 15%;
+  margin-bottom: 22rem;
+}
+
+.flipper {
+  width: 100%;
+  display: inline-block;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  transform: scale(0.9);
+  transition: all 0.3s;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+  transform-style: preserve-3d;
+  align-items: center;
+}
+.flipper img {
+  width: 100%;
+  margin: auto;
+}
+
+.flipper:hover {
+  transform: scale(1);
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+  cursor: help;
+}
+
+.flipper.blur {
+  transform: scale(0.88);
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+}
+
+.flipper.rotate {
+  transform: rotateY(180deg);
+}
+
+select {
+  margin-left: 80%;
+  margin-bottom: 5rem;
+  width: 10rem;
+  margin-bottom: 1em;
+  padding: 0.25em;
+  border: 0;
+  border-bottom: 2px solid currentcolor;
+  letter-spacing: 0.15em;
+  border-radius: 0;
+}
+select:focus, select:active {
+  outline: 0;
+  border-bottom-color: red;
+}
+select option {
+  font-size: 0.8rem;
+}

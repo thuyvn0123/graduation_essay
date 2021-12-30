@@ -1,0 +1,33 @@
+.privacy{
+    &-container{
+        width: 60%;
+        margin-left: 20%;
+        padding: 2rem 0;
+        h3{
+            text-align: center;
+            padding: 2rem;
+        }
+    }
+    &-content{
+        &-title{
+            h4{
+                color: #674125;
+                font-size: 2rem;
+                margin-bottom: 0;
+             }
+             h5{
+                 margin-bottom: .1rem;
+                 margin-left: .5rem;
+                 
+                 font-size: 1.4rem;
+            }
+        }
+       p{
+           font-size: .85rem;
+       }
+
+    }
+    
+}
+
+    

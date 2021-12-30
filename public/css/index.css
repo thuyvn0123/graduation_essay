@@ -1,0 +1,458 @@
+.carousel-caption {
+  text-align: center;
+  top: 10rem;
+  left: 30rem;
+  text-align: start;
+}
+.carousel-caption h2 {
+  font-size: 2rem;
+  color: black;
+}
+.carousel-caption p {
+  color: black;
+}
+
+.featured-projects {
+  padding: 4rem 15rem;
+  text-align: center;
+}
+.featured-projects h5 {
+  margin-bottom: 2rem;
+}
+.featured-projects-title {
+  background: black;
+  opacity: 0.7;
+  text-align: start;
+}
+.featured-projects-title p {
+  font-weight: 400;
+  padding: 0.5rem 0.5rem;
+  color: white;
+}
+.featured-projects-items img {
+  height: auto;
+  width: 100%;
+}
+
+.featured-products {
+  text-align: center;
+  padding: 4rem 0;
+}
+.featured-products-container {
+  width: 70%;
+  margin-left: 15rem;
+}
+.featured-products-title {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+.featured-products .owl-control {
+  width: 87%;
+}
+.featured-products .owl-control div {
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+}
+.featured-products-items {
+  margin: 0;
+}
+.featured-products-items img {
+  width: 100%;
+  height: auto;
+}
+
+.about-us {
+  width: 100%;
+  padding: 4rem 15rem;
+  background-color: rgba(140, 106, 81, 0.1);
+}
+.about-us-content {
+  padding-left: 15rem;
+  padding-right: 5rem;
+}
+.about-us-content h1 {
+  color: rgba(0, 0, 0, 0.2);
+}
+.about-us-video {
+  padding-left: 8rem;
+}
+
+.services {
+  background-color: rgba(140, 106, 81, 0.1);
+  padding: 4rem 15rem;
+  text-align: center;
+}
+.services h4 {
+  margin-bottom: 2rem;
+}
+.services-item {
+  cursor: context-menu;
+  width: 100%;
+  height: 15rem;
+  border-style: double;
+  border-width: 0.4rem;
+}
+.services-item h5 {
+  padding: 0 1rem;
+}
+.services-item i {
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+.services-item:hover {
+  background: #2B2F31;
+  border-color: white;
+}
+.services-item:hover h5 {
+  color: white;
+}
+.services-item:hover p {
+  color: white;
+}
+.services-item:hover i {
+  color: white;
+}
+
+.why-us {
+  width: 100%;
+  padding: 4rem 15rem;
+}
+.why-us-content {
+  font-size: 0.9rem;
+}
+.why-us-content h1 {
+  color: rgba(0, 0, 0, 0.2);
+}
+.why-us-detail {
+  text-align: center;
+  vertical-align: center;
+  padding: 0 6rem;
+  margin-top: 3rem;
+}
+.why-us-detail i {
+  font-size: 2rem;
+}
+.why-us-detail h5 {
+  font-size: 0.8rem;
+  padding: 0.2em 0.2rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+.why-us-detail p {
+  font-size: 0.8rem;
+}
+
+.testimonials {
+  text-align: center;
+  width: auto;
+  padding: 4rem 0rem;
+  background-color: rgba(140, 106, 81, 0.1);
+}
+.testimonials-items {
+  text-align: start !important;
+  height: 24rem;
+  border: 1px solid black;
+  background: #F2F2F2;
+}
+.testimonials-items .circle {
+  -webkit-clip-path: circle(50%);
+          clip-path: circle(50%);
+  height: auto;
+  width: 30%;
+  overflow: hidden;
+  margin: 0.2rem 35%;
+}
+.testimonials-items .quote-icon {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.testimonials-items .comment {
+  margin: 0.5rem;
+  text-align: center !important;
+  font-weight: 100;
+  height: 12rem;
+  overflow-y: scroll;
+}
+.testimonials-items .tt_name {
+  text-align: center !important;
+}
+.testimonials-container {
+  margin-left: -30px;
+  width: 70%;
+  margin-left: 15%;
+}
+.testimonials-container .owl-carousel {
+  margin-left: 50px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+@media (max-width: 680px) {
+  .featured-projects {
+    padding: 1rem;
+  }
+
+  .featured-products-container {
+    margin-left: 5rem;
+  }
+
+  .about-us {
+    padding: 4rem 2rem;
+  }
+  .about-us-content {
+    padding: 1rem;
+  }
+  .about-us-video {
+    padding: 0;
+  }
+
+  .services {
+    padding: 2rem 4rem;
+  }
+
+  .why-us {
+    padding: 4rem 2rem;
+  }
+  .why-us-content {
+    padding: 0 1rem;
+  }
+  .why-us-detail .col-sm-6 {
+    padding: 1rem 4rem;
+  }
+
+  .banner {
+    padding: 1.3rem !important;
+  }
+
+  .products-finishes-content {
+    margin-left: 10% !important;
+    width: 80% !important;
+  }
+
+  .product-carousel-title {
+    width: 50% !important;
+    margin-left: 30% !important;
+  }
+
+  .products-funiture-content img {
+    margin-left: 0% !important;
+  }
+
+  .news-container {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+
+  .manufacturing-item-3 {
+    margin-left: 0 !important;
+  }
+
+  .manufacturing .row {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .installation-carousel {
+    width: 70% !important;
+    margin-left: 15% !important;
+  }
+
+  .installation p {
+    padding: 0 2rem !important;
+  }
+
+  .faqs-content {
+    width: 90% !important;
+    margin-left: 5% !important;
+  }
+}
+@media (max-width: 860px) and (min-width: 680px) {
+  .featured-projects {
+    padding: 2rem 4rem;
+  }
+
+  .about-us-content {
+    padding-left: 8rem;
+  }
+
+  .featured-products-container {
+    margin-left: 8rem;
+  }
+
+  .services {
+    padding: 2rem 8rem;
+  }
+
+  .why-us-content {
+    padding-left: 6rem;
+  }
+
+  .get-quote p {
+    padding: 1rem 8rem;
+  }
+  .get-quote button {
+    width: 10rem;
+  }
+
+  .banner {
+    padding: 3rem !important;
+  }
+
+  .products-finishes-content {
+    margin-left: 10% !important;
+    width: 80% !important;
+  }
+
+  .product-carousel-title {
+    width: 30% !important;
+    margin-left: 37% !important;
+  }
+
+  .products-funiture-content img {
+    margin-left: 21% !important;
+  }
+
+  .news-container {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+
+  .new-detail-container {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+  .new-detail-container h4 {
+    padding: 0 5rem !important;
+  }
+
+  .projects-detail-img {
+    width: 70% !important;
+    margin-left: 15% !important;
+  }
+
+  .contact-excerpt {
+    padding: 0 6rem !important;
+  }
+
+  .select-position {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+
+  .google-map {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+
+  .manufacturing-item-3 {
+    margin-left: 0;
+  }
+
+  .installation-carousel {
+    width: 50% !important;
+    margin-left: 25% !important;
+  }
+
+  .installation p {
+    padding: 0 1rem !important;
+  }
+
+  .faqs-content {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+}
+@media (max-width: 1300px) and (min-width: 860px) {
+  .services {
+    padding: 2rem 8rem;
+  }
+
+  .featured-projects {
+    padding: 2rem 8rem;
+  }
+
+  .featured-products-container {
+    margin-left: 8rem;
+  }
+
+  .about-us-content {
+    padding-left: 8rem;
+  }
+
+  .why-us-content {
+    padding-left: 8rem;
+  }
+
+  .get-quote p {
+    padding: 1rem 15rem;
+  }
+  .get-quote button {
+    width: 10rem;
+  }
+
+  .banner {
+    padding: 5rem !important;
+  }
+
+  .products-finishes-content {
+    margin-left: 10% !important;
+    width: 80% !important;
+  }
+
+  .product-carousel-title {
+    width: 20% !important;
+    margin-left: 40% !important;
+  }
+
+  .products-funiture-content img {
+    margin-left: 23% !important;
+  }
+
+  .news-container {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+
+  .new-detail-container {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+  .new-detail-container h4 {
+    padding: 0 5rem !important;
+  }
+
+  .projects-detail-img {
+    width: 70% !important;
+    margin-left: 15% !important;
+  }
+
+  .contact-excerpt {
+    padding: 0 8rem !important;
+  }
+
+  .select-position {
+    width: 70% !important;
+    margin-left: 15% !important;
+  }
+
+  .google-map {
+    width: 70% !important;
+    margin-left: 15% !important;
+  }
+
+  .installation-carousel {
+    width: 50% !important;
+    margin-left: 25% !important;
+  }
+
+  .faqs-content {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+}
+@media (max-width: 1000px) and (min-width: 860px) {
+  .services {
+    padding: 2rem 14rem;
+  }
+}

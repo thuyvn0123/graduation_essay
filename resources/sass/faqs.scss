@@ -1,0 +1,54 @@
+.faqs{
+    &-menu{
+        background: #F2F2F2;
+    
+        .row{
+            width: 60%;
+            margin-left: 20%;
+            height: auto;
+        }
+        &-item{
+            cursor: pointer;
+        
+            p{
+                margin: 0;
+                padding: 0 2rem;
+                font-size: 1rem;
+                text-align: center;
+            }
+        }
+    
+    }
+    
+    &-active{
+        background: #2B2F31!important;
+        color:#f2f2f2;
+    }
+    
+    &-content{
+        width: 60%;
+        margin-left: 20%;
+        padding: 3rem 0;
+ 
+        
+    }
+    &-item{
+        cursor: pointer;
+        margin: 1rem 0;
+        img{
+            width: 15rem;
+            height: auto;
+        }
+        h5{
+            font-size: 1.1rem;
+        }
+        p{
+            font-size: .8rem;
+            text-align: start;
+        }
+      
+    }
+    &-item:hover{
+        background: #f2f2f2;
+    }
+}

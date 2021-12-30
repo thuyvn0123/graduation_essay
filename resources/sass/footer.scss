@@ -1,0 +1,125 @@
+.get-quote{
+    background-color: #E5E5E5;
+    width: 100%;
+    text-align: center;
+    padding: 4rem;
+    p{
+        padding: 0 28rem;
+        margin-bottom: 1rem;
+    }
+    button{
+        width: 12%;
+    }
+}
+
+
+
+.footer-main{
+
+    background-color: white;
+    padding: 3rem 15rem;
+    .footer-col-1{
+        padding: 0 2rem;
+        .foot-brand{
+            img{
+                width: 7rem;
+            }
+        }
+        p{
+            font-size: .8rem;
+            margin: .4rem 0 ;
+        }
+        hr{
+            color: white;
+        }
+        .foot-contact{
+            font-size: 1.5rem;
+            margin: .5rem 0;
+            i{
+                margin-right: 1rem ;
+            }
+            p{
+                font-size: 1rem;
+                margin: 0;
+            }
+        }
+    }
+    .footer-col-2{
+        padding: 0 2rem;
+        form > input{
+            background-color:#333F48;
+            color: #A2AAAD;
+        }
+        button{
+            margin: 1rem 0;
+            width: 100%;
+        }
+        .foot-social{
+            p{
+                font-weight: bold;
+                margin: 0;
+            }
+            i{
+                margin: 0 .8rem;
+            }
+        }
+    }
+    .footer-col-3{
+        padding: 0 1rem;
+        p{
+            font-size: .8rem;
+            margin-bottom:.4rem;
+            padding-left: 1rem;
+        }
+        .foot-img{
+            width: 40%;
+            margin: .2rem 1rem;
+        }
+    }
+
+}
+.copy-right{
+    background-color: #2B2F31;
+    p{
+        padding: .5rem 0;
+        margin: 0;
+        color: white;
+    }
+}
+
+@media (max-width: 680px) {
+    .get-quote{
+
+        p{
+            padding: 0 1rem;
+        }
+        button{
+            width: 40%;
+        }
+    }
+
+    .footer-main{
+        padding: 2rem;
+        .footer-col-1{
+            margin: 1.5rem 0;
+        }
+        .footer-col-2{
+            margin: 1.5rem 0;
+        }
+        .footer-col-3{
+            margin: 1.5rem 0;
+        }
+    }
+}
+@media (max-width: 860px) and (min-width: 680px) {
+    .footer-main{
+        padding: 3rem 6rem;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 860px) {
+    .footer-main{
+        padding: 3rem 10rem;
+    }
+}
+
